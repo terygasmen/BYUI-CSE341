@@ -1,0 +1,23 @@
+{
+        "contact": { 
+                "firstName": "Ajay Brihgham",
+                "lastName": "Baylon",
+                "email": "ajaybrighambaylon@gmail.com",
+                "favoriteColor": "Pink",
+                "birthday": "11/02/99"
+        },
+        "contact2": { 
+                "firstName": "Pamela",
+                "lastName": "Gasmen",
+                "email": "pamela@gmail.com",
+                "favoriteColor": "White",
+                "birthday": "04/06/02"
+        },
+        "contact3": { 
+                "firstName": "Denniel",
+                "lastName": "Gasmen",
+                "email": "dengasmen@gmail.com",
+                "favoriteColor": "Yellow",
+                "birthday": "09/09/97"
+        }
+}
