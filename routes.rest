@@ -1,12 +1,41 @@
 // LOCALHOST 
-### 
+### Get all contacts
 GET http://localhost:8080/contacts 
-### 
-GET http://localhost:8080/contacts/6443a821cf8de0cf1bba6dbe
-### 
-GET http://localhost:8080/contacts/6443a83dcf8de0cf1bba6dbf
-### 
-GET http://localhost:8080/contacts/6443a84fcf8de0cf1bba6dc0
+
+
+### Get contact by ID
+GET http://localhost:8080/contacts/6448a20fc620823de017dda0 HTTP/1.1 
+
+
+
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+        "firstName": "Tery",
+        "lastName": "Gasmen",
+        "email": "terygasmen@info.com",
+        "favoriteColor": "Yellow",
+        "birthday": "02/12/2000"
+}
+
+### Put contact
+PUT http://localhost:8080/contacts/6448a20fc620823de017dda0 HTTP/1.1 
+content-type: application/json
+
+{
+        "firstName": "Denniel",
+        "lastName": "Gasmen",
+        "email": "dengasmen@info.com",
+        "favoriteColor": "Yellow",
+        "birthday": "09/09/1997"
+}
+
+
+### Delete contact
+DELETE http://localhost:8080/contacts/6448a253c620823de017dda1 HTTP/1.1
+
 
 // PRODUCTION Deploy 
 ### 
